@@ -1,6 +1,9 @@
 .mbl-view {
   display: none !important;
 }
+.desk-view {
+  display: flex;
+}
 .chat-area {
   display: flex;
   flex-direction: row;
