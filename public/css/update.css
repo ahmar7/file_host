@@ -1,0 +1,64 @@
+.mbl-view {
+  display: none !important;
+}
+.chat-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.chat-btn {
+  margin-top: 1px;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+  background-color: #ffffff;
+  padding: 0px 6px;
+  /* padding: 2px 16px; */
+  border-radius: 8px;
+  font-size: 13px !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.26);
+
+  border: 1px solid transparent;
+  font-size: 17px;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* .chat-btn:hover {
+  color: #242424;
+  background-color: rgb(111, 85, 255);
+  transition: all 0.3s ease-in-out 0s;
+  border: 1px solid #242424;
+} */
+@media (max-width: 991px) {
+  .hero-banner-seven .illustration-container {
+    margin: 0px auto 0px !important;
+  }
+}
+@media (max-width: 768px) {
+  .hero-banner-ten {
+    display: none;
+  }
+  .chat-container {
+    margin-bottom: 68px !important;
+  }
+}
+@media (max-width: 600px) {
+  .desk-view {
+    display: none !important;
+  }
+
+  .signIn-action img {
+    margin-right: 10px;
+  }
+  .signIn-action span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 46px;
+    color: #000;
+  }
+  .mbl-view {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    justify-content: space-around;
+    color: black;
+    padding-bottom: 10px;
+  }
+}
