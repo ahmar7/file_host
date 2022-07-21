@@ -24,12 +24,26 @@
   font-size: 17px;
   transition: all 0.3s ease-in-out 0s;
 }
+.banner-title h1 {
+  font-weight: bold !important;
+}
 /* .chat-btn:hover {
   color: #242424;
   background-color: rgb(111, 85, 255);
   transition: all 0.3s ease-in-out 0s;
   border: 1px solid #242424;
 } */
+@media (min-width: 1200px) {
+  .chat-container {
+    margin: 100px;
+    padding: 21px;
+    position: relative;
+    background: #6f55ff;
+    width: 490px;
+    min-height: 80px;
+    border-radius: 7px;
+  }
+}
 @media (max-width: 991px) {
   .hero-banner-seven .illustration-container {
     margin: 0px auto 0px !important;
