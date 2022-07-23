@@ -33,6 +33,84 @@
   transition: all 0.3s ease-in-out 0s;
   border: 1px solid #242424;
 } */
+.dmXukc {
+  display: flex;
+  width: 187px;
+  background-color: transparent;
+  box-shadow: transparent 0px 1px 4px;
+  border-radius: 4px;
+  padding: 6px 9px;
+  position: relative;
+}
+.fHlPmY {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  width: fit-content;
+  /* margin-right: 24px; */
+}
+.fHlPmY .btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  outline: none;
+  padding: 0px;
+  cursor: pointer;
+}
+.etnhvy {
+  /* font-weight: 600; */
+  margin-left: 8px !important;
+  font-size: 13px;
+  font-family: "gordita";
+  line-height: 12px;
+  margin-right: 8px;
+  display: block;
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: #2b2c2e;
+
+  transition: all 0.3s ease 0s;
+}
+.bEtuOu:not(:focus) {
+  cursor: pointer;
+}
+.bEtuOu {
+  min-width: 0px;
+  width: 0%;
+  transition: color 0.3s ease 0s;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  margin-right: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+.fHlPmY .shortcut-icon {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.shortcut-icon {
+  border-radius: 4px;
+  border: 1px solid #2b2c2e;
+  padding: 0px 3px;
+  height: 24px;
+  /* width: 16px; */
+  text-align: center;
+}
+.product-area {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 21px;
+}
 @media (min-width: 1200px) {
   .chat-container {
     margin: 100px;
@@ -77,5 +155,19 @@
     justify-content: space-around;
     color: black;
     padding-bottom: 10px;
+  }
+  .banner-title h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  .banner-title h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 350px) {
+  .banner-title h1 {
+    font-size: 40px;
   }
 }
