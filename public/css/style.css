@@ -10593,11 +10593,11 @@ body .theme-btn-fourteen:hover {
   top: 8px;
   bottom: 8px;
   background: #242424;
-  width: 170px;
+  width: 205px;
   border-radius: 7px;
   text-align: center;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
   transition: all 0.3s ease-in-out;
 }
 .hero-banner-seven form button:hover {
@@ -10777,6 +10777,7 @@ body .theme-btn-fourteen:hover {
 }
 .block-style-eighteen .text-wrapper p {
   font-size: 20px;
+  text-align: justify;
   line-height: 1.75em;
   color: #4f4f4f;
   padding: 45px 0 40px;

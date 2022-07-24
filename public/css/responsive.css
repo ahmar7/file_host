@@ -3476,9 +3476,7 @@
   .hero-banner-seven form input {
     padding: 0 150px 0 15px;
   }
-  .fancy-feature-fifteen .carousel-indicators {
-    flex-direction: column;
-  }
+
   .fancy-feature-fifteen .carousel-indicators li {
     margin-bottom: 15px;
   }

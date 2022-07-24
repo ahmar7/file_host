@@ -48,7 +48,7 @@
   align-items: center;
   -webkit-box-pack: center;
   justify-content: center;
-  cursor: pointer;
+  /* cursor: pointer; */
   width: fit-content;
   /* margin-right: 24px; */
 }
@@ -60,10 +60,11 @@
   align-items: center;
   outline: none;
   padding: 0px;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .etnhvy {
   /* font-weight: 600; */
+  cursor: pointer;
   margin-left: 8px !important;
   font-size: 13px;
   font-family: "gordita";
@@ -74,6 +75,9 @@
   color: #2b2c2e;
 
   transition: all 0.3s ease 0s;
+}
+#input2 {
+  text-align: center;
 }
 .bEtuOu:not(:focus) {
   cursor: pointer;
@@ -110,6 +114,54 @@
   margin-top: 25px;
   text-align: center;
   font-size: 21px;
+}
+.input-area {
+  display: none;
+  padding: 25px 0;
+}
+.input-area input {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  /* min-width: 84px; */
+  width: 500px;
+  transition: color 0.3s ease 0s;
+  outline: none;
+  border: none;
+  padding: 7px 10px;
+
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 28px;
+  /* color: rgb(255, 255, 255); */
+}
+@media (max-width: 1045px) {
+  .input-area input {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .input-area input {
+    width: 310px;
+  }
+}
+@media (max-width: 435px) {
+  .fancy-feature-fifteen .carousel-indicators li p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  .container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 360px) {
+  .input-area input {
+    width: 250px;
+  }
 }
 @media (min-width: 1200px) {
   .chat-container {

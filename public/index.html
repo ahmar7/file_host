@@ -78,10 +78,10 @@
 	</style>
 </head>
 
-<body data-spy="scroll"
+<body id="mainbody" data-spy="scroll"
 	  data-target="#one-page-nav"
 	  data-offset="120">
-	<div class="main-page-wrapper font-gordita">
+	<div   class="main-page-wrapper font-gordita" >
 		<!--
 			=============================================
 				Theme Main Menu
@@ -89,7 +89,7 @@
 			-->
 		<div class="theme-main-menu sticky-menu theme-menu-five">
 			<div class="d-flex align-items-center justify-content-center">
-				<div class="logo"><a href="./tts-demo.html"><img src="images/logo/pure.png"
+				<div class="logo"><a href="#"><img src="images/logo/pure.png"
 							 width="125px"
 							 height="50px"
 							 alt=""></a></div>
@@ -103,7 +103,7 @@
 						<div class="navbar-collapse collapse"
 							 id="navbarSupportedContent">
 							<div class="d-lg-flex justify-content-between align-items-center">
-								<ul class="navbar-nav main-side-nav font-gordita"
+								<ul  id="input1" class="navbar-nav main-side-nav font-gordita"
 									id="one-page-nav">
 									<li class="nav-item">
 										<a href="#product"
@@ -141,7 +141,7 @@
 										<a href="doc-fullwidth.html"
 										   class="nav-link">Developers</a>
 									</li>
-									<div class="styled__Container-mnluvq-0 dmXukc">
+									<div onclick="inputToggle()" id="inputbefore" class="styled__Container-mnluvq-0 dmXukc">
 										<div class="styled__Container-tbh191-0 fHlPmY"><button type="button"
 													title="Search docs"
 													class="btn"><svg class="search-icon"
@@ -154,7 +154,7 @@
 														  d="M16.6004 15.2001C17.4792 14.0302 18 12.5759 18 11C18 7.13401 14.866 4 11 4C7.13401 4 4 7.13401 4 11C4 14.866 7.13401 18 11 18C12.5759 18 14.0302 17.4792 15.2001 16.6004C15.2281 16.6376 15.259 16.6733 15.2929 16.7071L19.2929 20.7071C19.6834 21.0976 20.3166 21.0976 20.7071 20.7071C21.0976 20.3166 21.0976 19.6834 20.7071 19.2929L16.7071 15.2929C16.6733 15.259 16.6376 15.2281 16.6004 15.2001ZM11 16C8.23858 16 6 13.7614 6 11C6 8.23858 8.23858 6 11 6C13.7614 6 16 8.23858 16 11C16 13.7614 13.7614 16 11 16Z"
 														  fill="#C7CBD5"></path>
 												</svg></button>
-											<div class="styled__Label-tbh191-2 etnhvy">Search docs</div><input
+											<div id="searchDocs" class="styled__Label-tbh191-2 etnhvy">Search docs</div><input
 												   type="search"
 												   placeholder="Search docs"
 												   class="styled__Input-tbh191-1 bEtuOu"
@@ -195,6 +195,9 @@
 										</ul>
 									</li>
 								</ul>
+								<div id="input2" class="input-area">
+									<input id="inputsearch" type="search"  placeholder="Search">
+								</div>
 							</div>
 						</div>
 					</div>
@@ -297,11 +300,11 @@
 				<div class="row">
 					<div class="col-lg-6 banner-title">
 						<h1 class="title"><span>We are the "voice of AI"®</h1>
-						<p class="hero-sub-heading">Puretalk is a conversational-AI-as-a-service platform that enables companies to assist their customers base through humanized voices. Puretalk is the voice of ai. Our technology helps companies take their apps and products to state-of-the art levels through realistic voice and text conversational capabilities.</p>
+						<p class="hero-sub-heading">Puretalk is a conversational-AI-as-a-service platform that enables companies to assist their customer base through humanized voices. Puretalk is the voice of ai. Our technology helps companies take their apps and products to state-of-the art levels through realistic voice and text conversational capabilities.</p>
 						<form action="#">
 							<input type="email"
 								   placeholder="info@puretalkai.com">
-							<button>START BUILDING TODAY</button>
+							<button>Try free demo</button>
 						</form>
 						<p class="term-text">We produce D.I.Y integrations for web, desktop, mobile, and enterprise systems.</p>
 
@@ -310,10 +313,10 @@
 				</div>
 
 			</div>
-			<div class="partner-slider-two mt-130 md-mt-80">
+			<div class="partner-slider-two mt-80 md-mt-80">
 				<div class="container">
-					<p class="text-center">Some text here <span>RUTH</span> software businesses growing with Puretalk.
-					</p>
+					<!-- <p class="text-center">Some text here <span>RUTH</span> software businesses growing with Puretalk.
+					</p> -->
 					<div class="partnerSliderTwo">
 						<div class="item">
 							<div class="img-meta d-flex align-items-center justify-content-center"><img
@@ -434,10 +437,9 @@
 							 data-aos="fade-right"
 							 data-aos-duration="1200">
 							<div class="text-wrapper">
-								<h6>App Integration</h6>
-								<h3 class="title">Connect with <span>soware.</span></h3>
-								<p>Share content across apps. Deski connects with the productivity tools you already
-									use, so you can work your way.</p>
+								<h6>Personalize</h6>
+								<h3 class="title">Your Customers' <span>experience</span> </h3>
+								<p>Gone are the days of the one-size fits all. Customers are more engaged today than ever before, so it’s important to have systems in place that can listen, process understanding, and come up with desirable responses leading to complete satisfaction.  Our artificial intelligence-enabled platform provides the infrastructure necessary to tailor branded voices that suit your needs.  </p>
 								<a href="#"
 								   class="d-flex align-items-center learn-more">
 									<span>Learn More</span>
@@ -477,10 +479,9 @@
 							 data-aos="fade-left"
 							 data-aos-duration="1200">
 							<div class="text-wrapper">
-								<h6>Scanning & Doc</h6>
-								<h3 class="title">Web doc <br> file <span>Scanning.</span></h3>
-								<p>Go paperless. Back up important documents to all your devices, and keep the
-									information not the clutter.</p>
+								<h6>Best-in class</h6>
+								<h3 class="title">Autonomous Voice <span>Solution</span></h3>
+								<p>It is in companies' best interest to provide self-service options and on-demand support that facilitate autonomous service. Companies are better off by allowing customers to get their help whenever and wherever. The new era of customer experience is defined by conversational voice assistants enabled by Puretalk's cutting-edge technology. </p>
 								<a href="#"
 								   class="d-flex align-items-center learn-more">
 									<span>Learn More</span>
@@ -520,10 +521,9 @@
 							 data-aos="fade-right"
 							 data-aos-duration="1200">
 							<div class="text-wrapper">
-								<h6>Note & Docs</h6>
-								<h3 class="title"><span>Clipper</span> & Rich notes</h3>
-								<p>Save web pages (without the ads) and mark them up with arrows, highlights, and text
-									to make them more useful.</p>
+								<h6>Enhance</h6>
+								<h3 class="title"><span>Your team's <span>performance</span> </h3>
+								<p>Across industries, companies are trying to prevent their staff from performing mundane tasks leading to long wait times, frustrated customers, and overwhelmed employees. We provide voice AI solutions to help companies maximize operations while minimizing costs and accelerating growth.</p>
 								<a href="#"
 								   class="d-flex align-items-center learn-more">
 									<span>Learn More</span>
@@ -584,9 +584,10 @@
 									 class="icon">
 							</a>
 							<div class="title-style-seven">
-								<h2>Why you should <span>choose</span> Deski?</h2>
+								<h2>Why you should <span>choose</span>  Puretalk.Ai</h2>
 							</div> <!-- /.title-style-seven -->
-							<p>So how does it work? Let’s check our Getting Started tutorial pre-made templates.</p>
+							<p style="padding-bottom: 30px;">The benefits of Puretalk’s custom voice solutions will not only save your company money but contribute to its efficiency.</p>
+							 
 							<a href="#"
 							   class="theme-btn-eight">Learn more</a>
 						</div> <!-- /.text-wrapper -->
@@ -621,8 +622,8 @@
 							<div class="block-meta">
 								<div class="icon d-flex align-items-end"><img src="images/icon/94.svg"
 										 alt=""></div>
-								<h4>Web Clipper</h4>
-								<p>Deski Web offers a complete lineup of features from any major browser.</p>
+								<h4>Autonomous</h4>
+								<p>end-to-end management of customers' request</p>
 							</div> <!-- /.block-meta -->
 						</div>
 						<div class="col-lg-4 col-sm-6"
@@ -632,8 +633,8 @@
 							<div class="block-meta">
 								<div class="icon d-flex align-items-end"><img src="images/icon/95.svg"
 										 alt=""></div>
-								<h4>All Platform</h4>
-								<p>Lorem ipsum began as scrambl nonsensical Latin derived from Cicero's quis</p>
+								<h4>Personalization</h4>
+								<p>Customizable solutions tailored to your systems</p>
 							</div> <!-- /.block-meta -->
 						</div>
 						<div class="col-lg-4 col-sm-6"
@@ -643,8 +644,8 @@
 							<div class="block-meta">
 								<div class="icon d-flex align-items-end"><img src="images/icon/96.svg"
 										 alt=""></div>
-								<h4>Character Finding</h4>
-								<p>Creation timelines for the standard lorem ipsum passage vary, with qius some citing.
+								<h4>Accommodation</h4>
+								<p>Omni-channel and multi-lingual integrations for ease of use and convenience
 								</p>
 							</div> <!-- /.block-meta -->
 						</div>
@@ -654,8 +655,8 @@
 							<div class="block-meta">
 								<div class="icon d-flex align-items-end"><img src="images/icon/97.svg"
 										 alt=""></div>
-								<h4>App Integrations</h4>
-								<p>Lorem ipsum began as scrambl nonsensical Latin derived from Cicero's quis</p>
+								<h4>Competence</h4>
+								<p>Intuitive knowledge bases for employee support backed by artificial intelligence</p>
 							</div> <!-- /.block-meta -->
 						</div>
 						<div class="col-lg-4 col-sm-6"
@@ -965,9 +966,9 @@
 						<div class="col-xl-3 col-lg-2 mb-40"
 							 data-aos="fade-up"
 							 data-aos-duration="1200">
-							<div class="logo"><a href="./tts-demo.html"><img src="images/logo/blCKLOGO.jpg"
+							<div class="logo"><a href="#"><img src="images/logo/Puretalk-Logo-White.png"
 										 width="125px"
-										 height="50px"
+										 
 										 alt=""></a></div>
 						</div>
 						<div class="col-lg-2 col-md-6 mb-40"
@@ -1072,6 +1073,8 @@
 		<script src="vendor/slick/slick.min.js"></script>
 		<!-- Fancybox -->
 		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- update js -->
+		<script src="./assets/js/update.js"></script>
 
 		<!-- Theme js -->
 		<script src="js/theme.js"></script>
