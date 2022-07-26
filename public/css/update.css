@@ -134,6 +134,41 @@
   line-height: 28px;
   /* color: rgb(255, 255, 255); */
 }
+.signup button::after {
+  display: none !important;
+}
+.mbl {
+  display: none;
+}
+.footer-links {
+  display: inline;
+}
+.mbl-viewli {
+  display: flex;
+  justify-content: space-around;
+}
+.mbl-viewli .mbl {
+  margin-top: -39px;
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+    display: flex;
+    justify-content: center;
+  }
+  .mbl {
+    display: block;
+  }
+  .desk {
+    display: none;
+  }
+  .md100 {
+    padding-top: 0 !important;
+  }
+  .mb40 {
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 1045px) {
   .input-area input {
     width: 400px;
