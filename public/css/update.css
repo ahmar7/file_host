@@ -151,7 +151,7 @@
   margin-top: -39px;
 }
 .details-form h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .details-form p {
   font-size: 17px;
@@ -160,8 +160,15 @@
   list-style: initial;
   margin-left: 20px;
 }
+.tts-fancy .bg-wrapper {
+  background: #72f6f7 !important;
+}
 
 @media (max-width: 768px) {
+  .details-form p {
+    display: inline;
+    font-size: 17px;
+  }
   .footer-links {
     display: flex;
     justify-content: center;
