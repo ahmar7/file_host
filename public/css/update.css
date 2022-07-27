@@ -150,6 +150,16 @@
 .mbl-viewli .mbl {
   margin-top: -39px;
 }
+.details-form h1 {
+  font-size: 2rem;
+}
+.details-form p {
+  font-size: 17px;
+}
+.form-list {
+  list-style: initial;
+  margin-left: 20px;
+}
 
 @media (max-width: 768px) {
   .footer-links {
