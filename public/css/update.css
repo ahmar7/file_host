@@ -163,7 +163,10 @@
 .tts-fancy .bg-wrapper {
   background: #72f6f7 !important;
 }
-
+.carousel-item p {
+  text-align: center;
+  margin-bottom: 35px;
+}
 @media (max-width: 768px) {
   .details-form p {
     display: inline;
