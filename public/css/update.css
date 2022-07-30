@@ -185,9 +185,32 @@
   width: 40%;
 }
 .right-img {
-  width: 400px;
-  height: 350px;
-  border: 2px solid green;
+  width: 350px;
+  border: 2px solid lawngreen;
+  height: 300px;
+}
+.ttsbelow-header {
+  margin-top: 35px;
+}
+.ttsbelow-header h6 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.tts-dem p {
+  padding: 0 !important;
+  font-size: 16px !important;
+}
+.tts-dem ul li {
+  padding: 0 !important;
+  font-size: 16px !important;
+}
+code {
+  background: none !important;
+  border: none !important;
+}
+code span {
+  font-size: 16px !important;
 }
 @media (max-width: 1000px) {
   .tts-block {
