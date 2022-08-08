@@ -2890,6 +2890,9 @@ body .theme-btn-fourteen:hover {
   color: rgba(42, 42, 42, 0.3);
   letter-spacing: 1.4px;
 }
+ .page-subtitle {
+  font-size: 17px !important;  
+}
 .fancy-hero-one .search-form {
   max-width: 720px;
   height: 70px;
