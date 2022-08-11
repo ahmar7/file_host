@@ -212,6 +212,13 @@ code {
 code span {
   font-size: 16px !important;
 }
+.content-block{
+  display: flex;
+  flex-direction: row;
+}
+.coulmn-1{
+  
+}
 @media (max-width: 1000px) {
   .tts-block {
     display: flex;
