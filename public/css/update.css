@@ -203,9 +203,13 @@
 .tts-dem p {
   padding: 0 !important;
 }
+.tts-dem ul  {
+ list-style:disc;
+ color: rgb(79, 79, 79);
+}
 .tts-dem ul li {
-  padding: 0 !important;
-  font-size: 16px !important;
+    margin-left: 20px;
+    padding-top: 10px !important; 
 }
 code {
   background: none !important;
@@ -213,6 +217,10 @@ code {
 }
 code span {
   font-size: 16px !important;
+}
+.pg-sub {
+  font-size: 21px !important;
+  color: black !important;
 }
 .content-block{
   margin-bottom: 100px;
