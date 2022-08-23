@@ -23081,7 +23081,7 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.66em;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 500;
   line-height: 1.1;
   color: inherit;

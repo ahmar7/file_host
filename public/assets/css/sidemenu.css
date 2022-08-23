@@ -58,9 +58,12 @@
   transition: margin-left 0.3s ease;
 }
 .app-content .side-app {
-  padding: 20px 2rem 0 2rem;
+  padding: 20px 0rem 0 0rem;
 }
-
+.lft-p{
+  
+  padding:0px 2rem 0 2rem;
+}
 .footer .container {
   width: 100%;
   padding-right: 0.75rem;
@@ -1025,9 +1028,12 @@
   }
 
   .app-content .side-app {
-    padding: 20px 0.75rem 0 0.75rem;
+    padding: 20px 0rem 0 0rem;
   }
-
+.lft-p{
+  
+  padding:0px 0.75rem 0 0.75rem;
+}
   .app-sidebar {
     margin-top: 75px;
   }

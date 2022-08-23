@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden !important;
+}
 .mbl-view {
   display: none !important;
 }
