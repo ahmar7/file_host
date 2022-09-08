@@ -267,6 +267,11 @@ code span {
     color: #4f4f4f;
     padding: 45px 0 40px;
 }
+.check-u h6{
+  font-weight: bold
+  ;
+  text-align: center;
+}
 @media (max-width: 1000px) {
   .content-block{
   margin-bottom: 80px;
